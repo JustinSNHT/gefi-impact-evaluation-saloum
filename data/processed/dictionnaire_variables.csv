@@ -1,0 +1,42 @@
+variable,label,source_brut
+hh_id,Identifiant ménage anonymisé (SHA-256 salé),a00 / a07
+village,Village d'enquête,a05
+traitement,"1 = îles traitées, 0 = contrôle",a05
+taille_menage,Nombre de membres du ménage,b00
+sexe_chef,Sexe du chef de ménage,b03 chef
+matri_chef,Situation matrimoniale du chef,b04 chef
+age_chef,Âge du chef de ménage,b05 chef
+ethnie_chef,Ethnie du chef,b07 chef
+educ_chef,Niveau d'éducation du chef,b08 chef
+dependency_ratio,(0-14 + 65+) / 15-64,calculé sur b05
+n04_a_any,Au moins une femme propriétaire de terres,n04_a
+n04_b_any,Au moins une femme propriétaire de bétail,n04_b
+n04_c_any,Au moins une femme propriétaire de biens durables,n04_c
+n04_d_any,Au moins une femme propriétaire d'autres équipements,n04_d
+n11_femme,Au moins une femme décide des facteurs de production,n11
+n13_femme,Au moins une femme décide pour l'école des enfants,n13
+n15_femme,Au moins une femme décide pour la santé des enfants,n15
+n17_femme_pouvoir_revenu,Au moins une femme a pouvoir sur le revenu,n17
+score_autonomie_depenses,Moyenne du score d'autonomie (0-9) sur les femmes 18+,n19_a-i
+nb_femmes_repondantes,Nombre de femmes 18+ ayant répondu,Section N
+revenu_total_2023,Revenu total 2023 (somme sur activités),d00_2023_*
+n_activites,Nombre d'activités génératrices de revenu,Section D
+pratique_peche,Le ménage pratique la pêche,e00
+e01,Production halieutique totale 2023 (kg),e01_2023
+e02,Quantité autoconsommée 2023 (kg),e02_2023
+e03,Quantité vendue 2023 (kg),e03_2023
+e04,Quantité perdue 2023 (kg),e04_2023
+e05,Quantité transformée 2023 (kg),e05_2023
+e11,Dispose d'un contrat de vente,e11
+e16,Diversification depuis 2021,e16
+e18_1,Pratique du séchage,e18_1
+e18_2,Pratique du fumage,e18_2
+mois_soudure_2023,Nombre de mois de soudure en 2023,g1_2023
+materiau_toit,Matériau du toit du logement,h1
+depense_totale,Dépense totale (somme catégories F2),f2_montant_*
+n_categories_depense,Nombre de catégories de dépenses,Section F2
+k01_1,Adaptation : diversification,k01_1
+k01_2,Adaptation : méthodes nouvelles de pêche,k01_2
+k01_3,Adaptation : traitement des déchets,k01_3
+k04,Présence de zones protégées,k04
+score_adaptation,Score d'adaptation (0-3),k01_1+k01_2+k01_3

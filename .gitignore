@@ -30,4 +30,5 @@ Thumbs.db
 .vscode/
 .idea/
 .env
-*.log
+*.logdata/_scratch/
+data/_scratch/
