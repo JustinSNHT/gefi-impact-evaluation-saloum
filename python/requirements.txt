@@ -1,0 +1,23 @@
+# === Manipulation de données ===
+pandas>=2.2
+numpy>=2.0
+pyarrow>=18.0
+openpyxl>=3.1
+
+# === Analyse statistique ===
+scipy>=1.14
+statsmodels>=0.14
+scikit-learn>=1.5
+
+# === Visualisation ===
+matplotlib>=3.9
+seaborn>=0.13
+
+# === Notebooks ===
+jupyter>=1.1
+ipykernel>=6.29
+notebook>=7.0
+
+# === Utilitaires ===
+python-dotenv>=1.0
+tqdm>=4.66
