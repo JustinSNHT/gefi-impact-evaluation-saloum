@@ -33,3 +33,5 @@ Thumbs.db
 *.logdata/_scratch/
 data/_scratch/
 data/processed/_R_objects.rds
+powerbi/*.pbix
+powerbi/*.pbix.bak
